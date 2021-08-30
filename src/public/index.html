@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>jsConverter</title>
+</head>
+<body>
+        <header class="header">
+                <h1 class="header--h1">
+                        JSconverter
+                </h1>
+        </header>
+        <main class="main">
+                <section class="main-container">
+                        <form action="" class="main-container-currency">
+                                <h2>
+                                        Select your currency
+                                </h2>
+                                <select name="Currencies" id="inputCurrency">
+                                        <option value="4080269.00">Bolívares venezolanos</option>
+                                        <option value="3854.47">Pesos colombianos</option>
+                                        <option value="20.18">Pesos mexicanos</option>
+                                        <option value="4.07">Soles peruanos</option>
+                                </select>
+                        </form>
+                        <form action="" class="main-container-amount">
+                                <h2>
+                                        Enter your amount
+                                </h2>
+                                <input type="number" id="inputAmount">
+                        </form>
+                        
+                </section>
+                <div class="main-result">
+                        <button onclick="converter()" class="main-result-buttom">
+                                converter
+                        </button>
+                        <div class="main-displayResult">
+                                <h1 id="displayResult">
+                                        $$$
+                                </h1>
+                        </div>
+                </div>
+        </main>
+        <footer>
+                <a href="https://www.linkedin.com/in/diego-gonz%C3%A1lez-8a91a9211/">DIEGOG1</a>
+        </footer>
+        <script src="../index.js"></script>
+</body>
+</html>
