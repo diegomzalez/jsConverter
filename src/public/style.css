@@ -10,7 +10,7 @@ body {
         align-items: center;
         justify-content: space-around;
         border: 2px solid black;
-        font-size: 50px;
+        font-size: 2em;
         background-color: yellow;
 }
 .main {
@@ -27,26 +27,26 @@ body {
 }
 .main-container {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-end;
-        align-content: stretch;  
+        flex-direction: column;
+        align-items: center;
         height: 160px;
+        justify-content: space-evenly;
+        align-content: space-between;
 }
 .main-container-currency {
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
-        padding: 20px 20px;
+        padding: 0em 0em;
 }
 .main-container-currency select {
-        height: 40px;
+        height: 2em;
         border-color: black;
         background-color: black;
-        width: 250px;
+        width: 11em;
         font-family: 'Roboto Condensed', sans-serif;
-        font-size: 26px;
+        font-size: 1em;
         color: white;
 }
 .main-container-amount {
@@ -54,15 +54,15 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 20px 20px;
-}
+        padding: 0em 0em;}
 .main-container-amount input {
         border-color: black;
-        height: 35px;
+        height: 2em;
         font-size: 20px;
         background-color: black;
         color: white;
         font-family: 'Roboto Condensed', sans-serif;
+        width: 8em;
 }
 .main-result-buttom {
         border-color: black;
