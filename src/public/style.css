@@ -17,7 +17,7 @@ body {
         height: 400px;
         width: 99%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
@@ -38,7 +38,8 @@ body {
         flex-direction: column;
         align-content: center;
         align-items: center;
-        padding: 0em 0em;
+        padding: 3em 0em 0em 0em;
+        margin: 0em 0em 0em 0em;
 }
 .main-container-currency select {
         height: 2em;
@@ -79,7 +80,7 @@ body {
 .main-result {
         display: flex;
         flex-direction: column;
-        padding: 20px 20px;
+        padding: 0;
         font-family: 'Roboto Condensed', sans-serif;
 }
 .main-displayResult {
